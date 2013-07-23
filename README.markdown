@@ -99,7 +99,6 @@ Customer API docs: <http://support.chargify.com/faqs/api/api-customers/>
 
     $test = TRUE;
     $customer = new ChargifyCustomer(NULL, $test);
-    $customer = new ChargifyCustomer(NULL, $test);
     $customer->first_name = 'Joe';
     $customer->last_name = 'Smith';
     $customer->email = 'joe.smith@example.com';
@@ -165,7 +164,6 @@ Customer API docs: <http://support.chargify.com/faqs/api/api-subscriptions/>
 #### Create a subscription
 
     $test = TRUE;
-    $customer = new ChargifyCustomer(NULL, $test);
     $customer = new ChargifyCustomer(NULL, $test);
     $customer->first_name = 'Joe';
     $customer->last_name = 'Smith';
